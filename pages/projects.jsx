@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Cryptocademy from "../public/Cryptocademy.png";
 import Mememarket from "../public/Mememarket.png";
+import randoMint from "../public/randoMint.png";
 
 export default function Projects() {
   return (
@@ -43,27 +44,25 @@ export default function Projects() {
             </div>
           </a>
         </div>
+
+        <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 mt-6 mb-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <a
+            href=""
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-[#C8A951] text-lg "
+          >
+            <div>
+              <h3 className=" text-2xl py-6">Rando-Mint</h3>
+              <div className=" pt-2 pb-6">
+                <Image src={randoMint} alt="Rando-Mint Website" />
+              </div>
+
+              <p> randomint.herokuapp.com </p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="basis-1/3 items-center flex-auto text-center rounded-lg shadow-md p-10 my-10 mx-12 dark:bg-white">
-          <h3 className=" text-3xl py-6"> Project 3 </h3>
-          <p className=" py-5 leading-8 text-gray-800">
-            I continue <span className=" text-purple-700"> learning </span> and
-            practicing code, build and whatever else you want to hear blahbity
-            blah
-          </p>
-        </div>
-
-        <div className="basis-1/3 items-center flex-auto text-center rounded-lg shadow-md p-10 my-10 mx-12 dark:bg-white">
-          <h3 className=" text-3xl py-6"> Project 4 </h3>
-          <p className=" py-5 leading-8 text-gray-800">
-            I continue <span className=" text-purple-700"> learning </span> and
-            practicing code, build and whatever else you want to hear blahbity
-            blah
-          </p>
-        </div> */
 }
