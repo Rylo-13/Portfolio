@@ -26,9 +26,9 @@ export default function main() {
                 Full Stack Developer based in Melbourne
               </h3>
               <p className=" text-lg py-5 leading-8 md:text-xl max-w-xl mx-auto text-gray-500">
-                I’m a full-stack developer with a love for programming.
-                Currently, I’m focused on building responsive full-stack web
-                applications.
+                I’m a full-stack developer with a love for creating things with
+                code! Currently, I’m focused on building responsive full-stack
+                web applications and learning new programming technologies.
               </p>
             </div>
           </div>
