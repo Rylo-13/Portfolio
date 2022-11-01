@@ -2,8 +2,8 @@ import { AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/Ai";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-[50px] z-10 fixed left-0 bottom-0 flex justify-center items-center text-4xl bg-[#191b1d]">
-      <div className="flex flex-wrap justify-between gap-5 items-center mx-auto">
+    <footer className="w-full z-10 fixed left-0 bottom-0 flex justify-center items-center text-4xl bg-[#191b1d]">
+      <div className="flex flex-wrap h-[50px] justify-between gap-5 items-center mx-auto">
         <a
           href="https://instagram.com/ryl0"
           target="_blank"
