@@ -31,7 +31,7 @@ export default function Projects() {
 
         <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 mt-6 mb-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <a
-            href=""
+            href="https://rando-mint-h91bedtuc-rylo-13.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-[#C8A951] text-lg "
