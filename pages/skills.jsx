@@ -7,43 +7,51 @@ export default function Skills() {
       <div>
         <p className="text-center">Technologies I have worked with</p>
       </div>
-      <div className="pt-4 max-w-[1000px] mx-auto grid items-start md:grid-cols-3 gap-4">
+      <div className="pt-4 max-w-[900px] mx-auto grid grid-cols-1 items-start md:grid-cols-3 gap-4">
         <div className="mx-auto flex flex-col justify-center text-center">
           {" "}
-          <h3 className="text-xl text-[#C8A951]">Languages</h3>
-          <div className="text-left list-disc p-6">
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Ruby</li>
-            <li>CSS</li>
-            <li>HTML5</li>
-            <li>SQL</li>
+          <h3 className="text-xl font-light text-[#C8A951]">Languages</h3>
+          <div className="text-justify mx-auto pt-2 mb-4">
+            <ul class="font-extralight list-disc list-inside">
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Ruby</li>
+              <li>CSS</li>
+              <li>HTML5</li>
+              <li>SQL</li>
+            </ul>
           </div>
         </div>
-        <div className="mx-auto flex flex-col justify-center text-center">
+        <div className="mx-auto mb-4 flex flex-col flex-wrap justify-center text-center">
           {" "}
-          <h3 className="text-xl text-[#C8A951]">Frameworks & Libraries</h3>
-          <div className="text-left list-disc p-6">
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Ruby On Rails</li>
-            <li>Bootstrap</li>
-            <li>Tailwind</li>
+          <h3 className="text-xl font-light text-[#C8A951]">
+            Frameworks & Libraries
+          </h3>
+          <div className="text-justify mx-auto pl-5 pt-2">
+            <ul class="font-extralight list-disc list-inside">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Ruby On Rails</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
+            </ul>
           </div>
         </div>
-        <div className="mx-auto flex flex-col justify-center text-left">
+        <div className="flex flex-col justify-center text-center">
           {" "}
-          <h3 className="text-xl pl-6 pb-4 text-[#C8A951]">More</h3>
-          <div className="text-left justify-center px-2">
-            <li>Node.js</li>
-            <li>PostgreSQL</li>
-            <li>AWS</li>
-            <li>Docker</li>
-            <li>Git Version Control</li>
-            <li>Sanity</li>
-            <li>Vercel</li>
-            <li>Heroku</li>
-            <li>Thirdweb</li>
+          <h3 className="text-xl font-light text-[#C8A951]">Other Tech</h3>
+          <div className="text-justify mx-auto pt-2 pl-14 mb-20">
+            <ul class="font-extralight list-disc list-inside">
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>AWS</li>
+              <li>Docker</li>
+              <li>Git Version Control</li>
+              <li>Sanity</li>
+              <li>Vercel</li>
+              <li>Heroku</li>
+              <li>Thirdweb</li>
+            </ul>
           </div>
         </div>
       </div>
