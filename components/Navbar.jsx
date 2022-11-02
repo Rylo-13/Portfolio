@@ -20,16 +20,16 @@ const Navbar = () => {
         </Link>
         <ul className="hidden sm:space-x-8 sm:flex">
           <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
-            <Link href="/about">About</Link>
+            <Link href="/about">ABOUT</Link>
           </li>
           <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects">PROJECTS</Link>
           </li>
           <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
-            <Link href="/skills">Skills</Link>
+            <Link href="/skills">SKILLS</Link>
           </li>
           <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
 

@@ -5,11 +5,11 @@ import randoMint from "../public/randoMint.png";
 
 export default function Projects() {
   return (
-    <div className="w-full min-h-screen py-6 px-2 mb-10 flex flex-col justify-center bg-[#f6f6f6]">
-      <h1 className="text-center text-4xl font-semibold font-sans mt-20 max-w-[1000px] text-zinc-600 mx-auto px-8 flex flex-col justify-center h-full lg:flex-auto">
+    <div className="w-full max-h-screen px-2">
+      <h1 className="mt-20 text-center text-3xl text-[#C8A951] mx-auto justify-center">
         PROJECTS
       </h1>
-      <div className="flex flex-col gap-2 py-6 lg:mb-20 lg:flex-row lg:flex-wrap">
+      <div className="flex flex-col gap-4 pb-12 lg:flex-row">
         <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 my-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <a
             href="http://cryptocademy.deliciousdao.com"
@@ -38,11 +38,14 @@ export default function Projects() {
           >
             <div>
               <h3 className="text-2xl font-extralight py-6">RANDO-MINT</h3>
-              <div className=" pt-2 pb-6">
+              <div className=" pt-4 pb-6">
                 <Image src={randoMint} alt="Rando-Mint Website" />
               </div>
 
-              <p className="text-sm font-extralight"> randomint.com </p>
+              <p className="text-sm font-extralight">
+                {" "}
+                randomint.comrandomint.com{" "}
+              </p>
             </div>
           </a>
         </div>
@@ -52,11 +55,11 @@ export default function Projects() {
             href="https://cryptpromememarket.herokuapp.com"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-[#C8A951] text-lg "
+            className="hover:text-[#C8A951] text-lg"
           >
             <div>
               <h3 className="text-2xl font-extralight py-6">MEME MARKET</h3>
-              <div className=" pt-2 pb-6">
+              <div className=" pt-4 pb-6">
                 <Image src={Mememarket} alt="Mememarket website" />
               </div>
               <p className="text-sm font-extralight">

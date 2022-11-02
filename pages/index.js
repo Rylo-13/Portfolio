@@ -21,20 +21,14 @@ export default function main() {
             RYLAN MCNEIL
           </h2>
           <div>
-            <h3 className="text-xl font-poppins font-extralight my-2 text-gray-500 md:text-3xl">
-              Full Stack Developer based in Melbourne
+            <h3 className="text-xl font-poppins font-extralight mb-2 text-gray-500 md:text-3xl">
+              Full Stack Developer based in Melbourne, Australia.
             </h3>
-            <p className="text-lg font-poppins pt-4 mb-12 md:text-xl max-w-2xl mx-auto text-gray-400">
-              I’m a full-stack developer ! Currently, I’m focused on building
-              responsive full-stack web applications and learning new
-              programming technologies. I’m a full-stack developer ! Currently,
-              I’m focused on building responsive full-stack web applications and
-              learning new programming technologies. I’m a full-stack developer
-              ! Currently, I’m focused on building responsive full-stack web
-              applications and learning new programming technologies. I’m a
-              full-stack developer ! Currently, I’m focused on building
-              responsive full-stack web applications and learning new
-              programming technologies.
+            <p className="text-md font-poppins pt-8 mb-12 md:text-xl max-w-2xl mx-auto text-gray-400">
+              I’m a full-stack developer, currently focused on building
+              responsive web applications and learning new technologies. My
+              experience as an accomplished skateboarder helps me bring
+              creativity, perseverance, and meticulousness to the job.
             </p>
           </div>
         </div>
