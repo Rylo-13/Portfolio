@@ -7,8 +7,8 @@ export default function ContactForm() {
     return (
       <div className="w-full h-screen py-4 mx-auto">
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-center">
-          <p className="text-center text-5xl text-[#C8A951]">
-            Thanks for your submission!
+          <p className="font-poppins text-center text-5xl text-[#C8A951]">
+            Thanks for your getting in touch!
           </p>
         </div>
       </div>
@@ -16,9 +16,11 @@ export default function ContactForm() {
   }
 
   return (
-    <div className=" w-full min-h-screen py-4 mx-auto bg-[#f6f6f6]">
-      <h1 className="mt-20 mb-10 text-4xl text-center bottom-0">CONTACT</h1>
-      <div className=" p-10 mx-auto justify-center max-w-[500px] rounded-lg shadow-md bg-[#d7d7d8]">
+    <div className="w-full max-h-screen items-center px-10 mx-auto">
+      <h1 className="mt-20 mb-6 text-3xl text-center text-[#C8A951]">
+        CONTACT
+      </h1>
+      <div className=" py-6 px-10 mx-auto max-w-lg justify-center rounded-lg shadow-md bg-[#ebebeb]">
         <form onSubmit={handleSubmit}>
           <div className="grid grid-cols-2 gap-2">
             <div className="flex flex-col col-span-4 my-8">
