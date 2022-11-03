@@ -3,7 +3,7 @@ export default function Skills() {
     <div className="w-full max-h-screen mx-auto">
       <h1 className="mt-20 text-3xl text-center text-[#C8A951]">SKILLS</h1>
       <div>
-        <h2 className="text-lg mt-4 text-gray-500 text-center">
+        <h2 className="text-xl font-extralight mt-4 text-gray-500 text-center">
           TECHNOLOGIES I HAVE WORKED WITH
         </h2>
       </div>
