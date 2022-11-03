@@ -17,14 +17,14 @@ export default function main() {
           <div className="mt-8 shadow-md rounded-full mx-auto w-60 h-60 md:h-80 md:w-80 ">
             <Image src={rylan} alt="Rylan PFP" />
           </div>
-          <h2 className="text-4xl my-10 font-poppins font-normal text-gray-600/80 md:text-5xl">
+          <h2 className="text-3xl my-8 font-normal text-[#C8A951] md:text-4xl">
             RYLAN MCNEIL
           </h2>
           <div>
-            <h3 className="text-xl font-poppins font-extralight mb-2 text-gray-500 md:text-3xl">
+            <h3 className="text-lg font-extralight mb-2 text-gray-500 md:text-2xl">
               Full Stack Developer based in Melbourne, Australia.
             </h3>
-            <p className="text-md font-poppins pt-8 mb-12 md:text-xl max-w-2xl mx-auto text-gray-400">
+            <p className="font-extralight pt-4 md:text-lg max-w-2xl mx-auto text-gray-500">
               I’m a full-stack developer, currently focused on building
               responsive web applications and learning new technologies. My
               experience as an accomplished skateboarder helps me bring
