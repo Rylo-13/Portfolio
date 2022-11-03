@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [textColor] = useState("white");
+  const [textColor] = useState("#C8A951");
 
   const handleNav = () => {
     setNav(!nav);
@@ -14,21 +14,21 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 w-full z-10 px-10 ease-in duration-300 bg-[#191b1d]">
       <div className="max-w-[1240px] h-[50px] m-auto flex justify-between items-center p-4 text-black">
         <Link href="/">
-          <a className="font-extralight text-md text-[#C8A951] hover:underline hover:decoration-[#C8A951] underline-offset-4">
+          <a className="font-poppins font-extralight text-md text-[#C8A951] hover:underline hover:decoration-[#C8A951] underline-offset-4">
             RYLAN MCNEIL
           </a>
         </Link>
         <ul className="hidden sm:space-x-8 sm:flex">
-          <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
+          <li className="text-white font-poppins font-thin hover:underline hover:decoration-[#C8A951] underline-offset-4">
             <Link href="/about">ABOUT</Link>
           </li>
-          <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
+          <li className="text-white font-poppins font-thin hover:underline hover:decoration-[#C8A951] underline-offset-4">
             <Link href="/projects">PROJECTS</Link>
           </li>
-          <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
+          <li className="text-white font-poppins font-thin hover:underline hover:decoration-[#C8A951] underline-offset-4">
             <Link href="/skills">SKILLS</Link>
           </li>
-          <li className="text-white hover:underline hover:decoration-[#C8A951] underline-offset-4">
+          <li className="text-white font-poppins font-thin hover:underline hover:decoration-[#C8A951] underline-offset-4">
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
