@@ -1,41 +1,32 @@
 export default function about() {
   return (
-    <div className="w-full min-h-screen items-center px-10 mx-auto">
+    <div className="w-full max-h-screen px-10 mx-auto">
       <div className="mt-20 text-center text-3xl text-[#C8A951] mx-auto flex flex-col justify-center h-full">
-        <div className="max-w-[800px] w-full grid grid-cols-1 gap-4">
-          <h1 className=" font- text-3xl pt-10 pb-4"> ABOUT </h1>
-          <p className=" text-md py-2 mx-auto text-gray-500">
-            While pursuing acting, I also worked my way up the retail ladder. I
-            worked as a store manager at such brands as Free People, Splendid,
-            and Gypsy05.{" "}
+        <div className="max-w-[600px] w-full items-center grid grid-cols-1 gap-6 mx-auto">
+          <h1 className="text-3xl"> ABOUT </h1>
+          <p className=" text-sm mx-auto text-gray-500">
+            While pursuing skateboarding, I also worked for YMCA Victoria as an
+            event oraganiser and skateboarding coach. Mentoring and teaching
+            students of different ages and backgrounds. I continue to do private
+            coaching sessions on my weekends.{" "}
           </p>
-          <p className=" text-md py-2 mx-auto text-gray-500">
-            My favorite position was serving as General Manager of an interior
-            design showroom, Clad Home, where I had the opportunity to build a
-            small business from zero to hero in 4 years. More specifically, I
-            helped grow the brand from $100K/year to $2M/year through strict
-            management of operations and sales team.
+          <p className="text-sm mx-auto text-gray-500">
+            After always being fascinated by tech and the art of programming, I
+            decided to pursue it by starting to do some online courses and
+            tutorials. This led me to studying web development at Le Wagon
+            Bootcamp and becoming a full stack developer, proficient in Ruby On
+            Rails and JavaScript.{" "}
           </p>
-          <p className=" text-md py-5 mx-auto text-gray-500">
-            I starred in commercials, feature films, and short films until the
-            pandemic of 2020 abruptly halted my next scheduled musical theatre
-            tour.{" "}
-          </p>
-          <p className=" text-md py-5 mx-auto text-gray-500">
-            I began studying web development at Lambda School and became a full
-            stack developer proficient in React.js, Node.js, JavaScript, and
-            Python.{" "}
-          </p>
-          <p className=" text-md py-5 mx-auto text-gray-500">
+          <p className="text-sm mx-auto text-gray-500">
             I'm a life-long learner and continue to work on my skills as a
-            developer by learning Typescript and Vue. I love learning new
-            technologies and getting comfortable connecting the dots.
+            developer. Currently, I am focused on expanding my knowledge in
+            Typescript, React and Next.js. I love exploring new technologies and
+            understanding how they work!
           </p>
-          <p className=" text-md py-5 mx-auto text-gray-500">
+          <p className="text-sm mb-20 mx-auto text-gray-500">
             {" "}
-            I live in the lovely neighborhood of Los Feliz in Los Angeles with
-            my husband Jeremy who is a writer/director and co-founder of Tortuga
-            Backpacks.
+            I live in Elwood of Melbourne, Australia with my wife Rita who is a
+            talented visual artist for a US based AI company.
           </p>
         </div>
       </div>
