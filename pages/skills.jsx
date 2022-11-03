@@ -15,6 +15,7 @@ export default function Skills() {
             <ul class="font-extralight list-disc list-inside">
               <li>JavaScript</li>
               <li>TypeScript</li>
+              <li>Solidity</li>
               <li>Ruby</li>
               <li>CSS</li>
               <li>HTML5</li>

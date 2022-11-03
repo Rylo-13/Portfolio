@@ -17,18 +17,23 @@ export default function Projects() {
             rel="noreferrer"
             className="text-gray-500 hover:text-[#C8A951] text-lg"
           >
-            <div>
-              <h3 className="text-xl font-extralight mb-2 py-2">
-                {" "}
-                CRYPTOCADEMY{" "}
-              </h3>
-              <div className="">
-                <Image src={Cryptocademy} alt="Cryptocademy website" />
+            <h3 className="text-xl font-extralight mb-2 py-2">
+              {" "}
+              CRYPTOCADEMY{" "}
+            </h3>
+            <div className="relative overflow-hidden">
+              <Image src={Cryptocademy} alt="Cryptocademy website" />
+              <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+                <div></div>
+                <p className="text-sm pt-4 font-light p-10">
+                  Some dummy text about the stack used on this project. Some
+                  dummy text about the stack used on this project.
+                </p>
               </div>
-              <p className="text-sm pt-4 font-extralight">
-                cryptocademy.deliciousdao.com
-              </p>
             </div>
+            <p className="text-sm pt-4 font-extralight">
+              cryptocademy.deliciousdao.com
+            </p>
           </a>
         </div>
 
@@ -39,17 +44,20 @@ export default function Projects() {
             rel="noreferrer"
             className="text-gray-500 hover:text-[#C8A951] text-lg"
           >
-            <div>
-              <h3 className="text-xl font-extralight mb-2 py-2">RANDO-MINT</h3>
-              <div className="relative overflow-hidden">
-                <Image src={randoMint} alt="Rando-Mint Website" />
-                <div className="absolute h-full w-full bg-black/50 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300"></div>
+            <h3 className="text-xl font-extralight mb-2 py-2">RANDO-MINT</h3>
+            <div className="group relative overflow-hidden">
+              <Image src={randoMint} alt="Rando-Mint Website" />
+              <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+                <p className="font-light text-sm p-10">
+                  Some dummy text about the stack used on this project. Some
+                  dummy text about the stack used on this project.
+                </p>
               </div>
-              <p className="text-sm pt-4 font-extralight">
-                {" "}
-                randomint.comrandomint.com{" "}
-              </p>
             </div>
+            <p className="text-sm pt-4 font-extralight">
+              {" "}
+              randomint.comrandomint.com{" "}
+            </p>
           </a>
         </div>
 
@@ -60,15 +68,19 @@ export default function Projects() {
             rel="noreferrer"
             className="text-gray-500 hover:text-[#C8A951] text-lg"
           >
-            <div>
-              <h3 className="text-xl font-extralight mb-2 py-2">MEME MARKET</h3>
-              <div className="">
-                <Image src={Mememarket} alt="Mememarket website" />
+            <h3 className="text-xl font-extralight mb-2 py-2">MEME MARKET</h3>
+            <div className="relative overflow-hidden">
+              <Image src={Mememarket} alt="Mememarket website" />
+              <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+                <p className="text-sm pt-4 font-light p-10">
+                  Some dummy text about the stack used on this project. Some
+                  dummy text about the stack used on this project.
+                </p>
               </div>
-              <p className="text-sm pt-4 font-extralight">
-                cryptpromememarket.herokuapp.com
-              </p>
             </div>
+            <p className="text-sm pt-4 font-extralight">
+              cryptpromememarket.herokuapp.com
+            </p>
           </a>
         </div>
       </div>
