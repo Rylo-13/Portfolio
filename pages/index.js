@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import rylan from "../public/rylan.png";
-import { TiThMenu } from "react-icons/ti";
 
 export default function main() {
   return (
-    <div className="mx-auto max-w-7xl flex flex-col min-h-screen py-20 px-10 lg:px-10 2xl:px-0">
+    <div className="mx-auto max-w-7xl flex flex-col h-full min-h-screen py-20 px-10 lg:px-10 2xl:px-0">
       <Head>
         <title>Rylan McNeil</title>
         <meta name="Rylan McNeil Portfolio" content="Portfolio" />
@@ -21,14 +20,14 @@ export default function main() {
             RYLAN MCNEIL
           </h1>
           <div>
-            <h3 className="text-lg font-extralight mb-2 text-gray-500 md:text-2xl">
+            <h3 className="text-lg font-extralight mb-2 text-gray-600 md:text-2xl">
               Full Stack Developer based in Melbourne, Australia.
             </h3>
-            <p className="font-extralight pt-4 md:text-lg max-w-2xl mx-auto text-gray-500">
-              I’m a full-stack developer, currently focused on building
-              responsive web applications and learning new technologies. My
-              experience as an accomplished skateboarder helps me bring
-              creativity, perseverance, and meticulousness to the job.
+            <p className="font-extralight pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
+              I’m a full-stack developer, focused on building responsive web
+              applications with clean design. My experience as an accomplished
+              skateboarder helps me bring creativity, perseverance, and
+              meticulousness to the job.
             </p>
           </div>
         </div>
