@@ -7,7 +7,7 @@ export default function ContactForm() {
     return (
       <div className="w-full h-screen py-4 mx-auto">
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-center">
-          <p className="font-light text-center text-5xl text-[#C8A951]">
+          <p className="font-light text-center text-3xl md:text-5xl text-[#C8A951]">
             Thanks for getting in touch!
           </p>
         </div>

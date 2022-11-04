@@ -7,29 +7,30 @@ export default function about() {
             {" "}
             ABOUT{" "}
           </h1>
-          <p className=" text-gray-500">
+          <p className=" text-gray-600">
             While pursuing skateboarding, I also worked for YMCA Victoria as an
-            event oraganiser and skateboarding coach. Mentoring and teaching
+            event organiser and skateboarding coach. Mentoring and teaching
             students of different ages and backgrounds. I continue to do private
             coaching sessions on my weekends.{" "}
           </p>
-          <p className="mx-auto text-gray-500">
+          <p className="mx-auto text-gray-600">
             After always being fascinated by tech and the art of programming, I
-            decided to pursue it by starting to do some online courses and
-            tutorials. This led me to studying web development at Le Wagon
-            Bootcamp and becoming a full stack developer, proficient in Ruby On
-            Rails and JavaScript.{" "}
+            decided to pursue a new path by working through some online courses
+            and tutorials. This led me to studying web development on campus at
+            Le Wagon Bootcamp and becoming a full stack developer, proficient in
+            Ruby On Rails and JavaScript.{" "}
           </p>
-          <p className="mx-auto text-gray-500">
+          <p className="mx-auto text-gray-600">
             I'm a life-long learner and continue to work on my skills as a
             developer. Currently, I am focused on expanding my knowledge in
             Typescript, React and Next.js. I love exploring new technologies and
             understanding how they work!
           </p>
-          <p className="mb-20 mx-auto text-gray-500">
+          <p className="mb-20 mx-auto text-gray-600">
             {" "}
-            I live in Elwood of Melbourne, Australia with my wife Rita who is a
-            talented visual artist for a US based AI company.
+            I live in the beautiful suburb of Elwood in Melbourne, Australia
+            with my wife Rita who is a talented visual artist for a US based AI
+            company.
           </p>
         </div>
       </div>

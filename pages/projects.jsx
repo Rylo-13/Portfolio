@@ -15,7 +15,7 @@ export default function Projects() {
             href="http://cryptocademy.deliciousdao.com"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-500 hover:text-[#C8A951] text-lg"
+            className="text-gray-600 hover:text-[#C8A951] text-lg"
           >
             <h3 className="text-xl font-extralight mb-2 py-2">
               {" "}
@@ -23,16 +23,20 @@ export default function Projects() {
             </h3>
             <div className="relative overflow-hidden">
               <Image src={Cryptocademy} alt="Cryptocademy website" />
-              <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
-                <p className="text-sm font-light p-10">
-                  Some dummy text about the stack used on this project. Some
-                  dummy text about the stack used on this project. Some dummy
-                  text about the stack used on this project. Some dummy text
-                  about the stack used on this project.
+              <div className="absolute h-full w-full bg-black/90 text-white flex flex-col items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+                <p className="text-sm font-light p-4">
+                  {" "}
+                  Served as full stack Ruby on Rails developer in a team of 4.
+                  Creating and deploying this educatinal blockchain app in under
+                  2 weeks.
+                  <p className="text-xs font-light pt-10">
+                    {" "}
+                    Ruby on Rails | JavaScript | PosgreSQL | SCSS | Heroku{" "}
+                  </p>
                 </p>
               </div>
             </div>
-            <p className="text-sm pt-4 font-extralight">
+            <p className="text-xs pt-4 font-extralight text-gray-600 underline decoration-gray-600 underline-offset-4 hover:text-[#C8A951] hover:decoration-[#C8A951]">
               cryptocademy.deliciousdao.com
             </p>
           </a>
@@ -43,23 +47,25 @@ export default function Projects() {
             href="https://rando-mint-h91bedtuc-rylo-13.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-500 hover:text-[#C8A951] text-lg"
+            className="text-gray-600 text-lg"
           >
             <h3 className="text-xl font-extralight mb-2 py-2">RANDO-MINT</h3>
             <div className="group relative overflow-hidden">
               <Image src={randoMint} alt="Rando-Mint Website" />
-              <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
-                <p className="font-light text-sm p-10">
-                  Some dummy text about the stack used on this project. Some
-                  dummy text about the stack used on this project. Some dummy
-                  text about the stack used on this project. Some dummy text
-                  about the stack used on this project.
+              <div className="absolute h-full w-full bg-black/90 hover:text-[#C8A951] flex flex-col items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+                <p className="text-sm font-light px-4 pb-6">
+                  Full stack NFT project I am currently working on to understand
+                  the entire process of creating a mintable NFT drop.
+                </p>
+                <p className="text-xs font-light px-4 pt-4">
+                  TypeScript | React | Next.js | Tailwind | Thirdweb | MetaMask
+                  | Sanity | Vercel
                 </p>
               </div>
             </div>
-            <p className="text-sm pt-4 font-extralight">
+            <p className="text-xs pt-4 font-extralight text-gray-600 underline decoration-gray-600 underline-offset-4 hover:text-[#C8A951] hover:decoration-[#C8A951]">
               {" "}
-              randomint.comrandomint.com{" "}
+              rando-mint-i5sujgthu-rylo-13.vercel.app{" "}
             </p>
           </a>
         </div>
@@ -69,21 +75,24 @@ export default function Projects() {
             href="https://cryptpromememarket.herokuapp.com"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-500 hover:text-[#C8A951] text-lg"
+            className="text-gray-600 text-lg"
           >
             <h3 className="text-xl font-extralight mb-2 py-2">MEME MARKET</h3>
             <div className="relative overflow-hidden">
               <Image src={Mememarket} alt="Mememarket website" />
-              <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
-                <p className="text-sm font-light p-10">
-                  Some dummy text about the stack used on this project. Some
-                  dummy text about the stack used on this project. Some dummy
-                  text about the stack used on this project. Some dummy text
-                  about the stack used on this project.
+              <div className="absolute h-full w-full bg-black/90 hover:text-[#C8A951] flex flex-col items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+                <p className="text-sm font-light px-4 pt-2 pb-4">
+                  Fun NFT inspired marketplace for memes. Served as full stack
+                  dev, primarily focused on the backend with Ruby. Built and
+                  deployed in 1 week with a team of 4.
+                </p>
+                <p className="text-xs font-light px-4 pt-4 pb-2">
+                  {" "}
+                  Ruby on Rails | JavaScript | PosgreSQL | SCSS | Heroku{" "}
                 </p>
               </div>
             </div>
-            <p className="text-sm pt-4 font-extralight">
+            <p className="text-xs pt-4 font-extralight text-gray-600 underline decoration-gray-600 underline-offset-4 hover:text-[#C8A951] hover:decoration-[#C8A951]">
               cryptpromememarket.herokuapp.com
             </p>
           </a>
