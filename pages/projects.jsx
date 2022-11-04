@@ -6,7 +6,7 @@ import randoMint from "../public/randoMint.png";
 export default function Projects() {
   return (
     <div className="w-full max-h-screen px-2">
-      <h1 className="mt-20 text-center text-3xl text-[#C8A951] mx-auto justify-center">
+      <h1 className="mt-20 text-center text-3xl md:text-4xl font-light text-[#C8A951] mx-auto justify-center">
         PROJECTS
       </h1>
       <div className="flex flex-col gap-4 pb-12 lg:flex-row">
@@ -24,10 +24,11 @@ export default function Projects() {
             <div className="relative overflow-hidden">
               <Image src={Cryptocademy} alt="Cryptocademy website" />
               <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
-                <div></div>
-                <p className="text-sm pt-4 font-light p-10">
+                <p className="text-sm font-light p-10">
                   Some dummy text about the stack used on this project. Some
-                  dummy text about the stack used on this project.
+                  dummy text about the stack used on this project. Some dummy
+                  text about the stack used on this project. Some dummy text
+                  about the stack used on this project.
                 </p>
               </div>
             </div>
@@ -50,7 +51,9 @@ export default function Projects() {
               <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="font-light text-sm p-10">
                   Some dummy text about the stack used on this project. Some
-                  dummy text about the stack used on this project.
+                  dummy text about the stack used on this project. Some dummy
+                  text about the stack used on this project. Some dummy text
+                  about the stack used on this project.
                 </p>
               </div>
             </div>
@@ -72,9 +75,11 @@ export default function Projects() {
             <div className="relative overflow-hidden">
               <Image src={Mememarket} alt="Mememarket website" />
               <div className="absolute h-full w-full bg-black/80 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
-                <p className="text-sm pt-4 font-light p-10">
+                <p className="text-sm font-light p-10">
                   Some dummy text about the stack used on this project. Some
-                  dummy text about the stack used on this project.
+                  dummy text about the stack used on this project. Some dummy
+                  text about the stack used on this project. Some dummy text
+                  about the stack used on this project.
                 </p>
               </div>
             </div>
