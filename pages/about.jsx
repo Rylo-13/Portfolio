@@ -2,7 +2,7 @@ export default function about() {
   return (
     <div className="w-full h-full max-h-screen px-10 mx-auto">
       <div className="text-center mx-auto flex flex-col justify-center h-full">
-        <div className="max-w-[700px] w-full items-center font-extralight px-2 md:text-lg grid grid-cols-1 gap-6 mx-auto">
+        <div className="max-w-[700px] w-full items-center font-extralight px-2 md:text-lg grid grid-cols-1 gap-4 mx-auto">
           <h1 className="mt-20 text-3xl font-light text-[#C8A951] md:text-4xl">
             {" "}
             ABOUT{" "}
@@ -15,8 +15,8 @@ export default function about() {
           </p>
           <p className="mx-auto text-gray-600">
             After always being fascinated by tech and the art of programming, I
-            decided to pursue a new path by working through some online courses
-            and tutorials. This led me to studying web development on campus at
+            decided to pursue a new career path by working through some online
+            coding courses. This led me to studying web development on campus at
             Le Wagon Bootcamp and becoming a full stack developer, proficient in
             Ruby On Rails and JavaScript.{" "}
           </p>
