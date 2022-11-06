@@ -22,9 +22,9 @@ export default function Projects() {
               {" "}
               CRYPTOCADEMY{" "}
             </h3>
-            <div className="relative overflow-hidden">
+            <div className=" relative overflow-hidden">
               <Image src={Cryptocademy} alt="Cryptocademy website" />
-              <div className="absolute px-2 pb-2 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
+              <div className="absolute px-2 pb-2 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 group:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-sm font-light px-2 pb-2">
                   {" "}
                   Served as full stack Ruby on Rails developer in a team of 4.
@@ -33,7 +33,7 @@ export default function Projects() {
                 </p>
                 <p className="text-xs font-light pt-4">
                   {" "}
-                  Ruby on Rails | JavaScript | PosgreSQL | SCSS | Heroku{" "}
+                  Ruby on Rails | JavaScript | PostgreSQL | SASS | Heroku{" "}
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function Projects() {
           >
             <h3 className="text-xl font-extralight mb-2 py-2">MEME MARKET</h3>
             <div className="relative overflow-hidden">
-              <Image src={Mememarket} alt="Mememarket website" />
+              <Image src={Mememarket} alt="Mememarket website" />{" "}
               <div className="absolute py-10 px-4 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-sm font-light pt-2 px-2">
                   NFT inspired marketplace for memes. Served as full stack dev,
@@ -89,7 +89,7 @@ export default function Projects() {
                 </p>
                 <p className="text-xs font-light pt-4 pb-2">
                   {" "}
-                  Ruby on Rails | JavaScript | PosgreSQL | SCSS | Heroku{" "}
+                  Ruby on Rails | JavaScript | PostgreSQL | SASS | Heroku{" "}
                 </p>
               </div>
             </div>

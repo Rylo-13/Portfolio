@@ -12,7 +12,7 @@ export default function main() {
       </Head>
 
       <div className=" rounded-2xl shadow-xl justify-center mx-auto px-12 pb-12 flex flex-col h-full text-center">
-        <div className="shadow-md scale-90 rounded-full mx-auto w-60 h-60 md:scale-110 ">
+        <div className="shadow-md scale-90 rounded-full mx-auto w-60 h-60 md:scale-100 ">
           <Image src={rylan} alt="Rylan PFP" />
         </div>
         <h1 className="text-3xl my-6 font-light text-[#C8A951] md:text-4xl">
