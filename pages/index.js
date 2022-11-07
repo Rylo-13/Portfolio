@@ -7,8 +7,7 @@ export default function main() {
     <div className="mx-auto max-w-7xl flex flex-col min-h-screen justify-center px-6 lg:px-2 2xl:px-0">
       <Head>
         <title>Rylan McNeil</title>
-        <meta name="Rylan McNeil Portfolio" content="Portfolio" />
-        <link rel="icon" href="/" />
+        <meta name="description" content="Portfolio" />
       </Head>
 
       <div className=" rounded-2xl shadow-xl justify-center mx-auto px-12 pb-12 flex flex-col h-full text-center">
