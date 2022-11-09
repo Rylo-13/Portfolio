@@ -27,9 +27,9 @@ export default function Projects() {
               <div className="absolute px-2 pb-2 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 group:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-sm font-light px-2 pb-2">
                   {" "}
-                  Served as full stack Ruby on Rails developer in a team of 4.
-                  Creating and deploying this educatinal blockchain app in under
-                  2 weeks.
+                  Served as a full stack Ruby on Rails developer in a team of
+                  4.mCreating and deploying this educational blockchain app in
+                  under 2 weeks.
                 </p>
                 <p className="text-xs font-light pt-4">
                   {" "}
@@ -55,8 +55,8 @@ export default function Projects() {
               <Image src={randoMint} alt="Rando-Mint Website" />
               <div className="absolute p-4 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-sm font-light p-2">
-                  Full stack NFT project I am currently working on to understand
-                  the entire process of creating a mintable NFT drop.
+                  A full stack NFT project I am currently working on to
+                  understand the entire process of creating a mintable NFT drop.
                 </p>
                 <p className="text-xs font-light pt-4">
                   TypeScript | React | Next.js | Tailwind | Thirdweb | MetaMask
@@ -83,9 +83,9 @@ export default function Projects() {
               <Image src={Mememarket} alt="Mememarket website" />{" "}
               <div className="absolute py-10 px-4 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-sm font-light pt-2 px-2">
-                  NFT inspired marketplace for memes. Served as full stack dev,
-                  primarily focused on the backend with Ruby. Built and deployed
-                  in 1 week with a team of 4.
+                  NFT inspired marketplace for memes. Served as full stack
+                  developer, primarily focused on the backend with Ruby. Built
+                  and deployed in 1 week with a team of 4.
                 </p>
                 <p className="text-xs font-light pt-4 pb-2">
                   {" "}

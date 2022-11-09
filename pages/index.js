@@ -23,7 +23,7 @@ export default function main() {
           </h3>
           <p className="font-extralight pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
             I’m a full-stack developer, focused on building responsive web
-            applications with clean design. My experience as an accomplished
+            applications with a clean design. My experience as an accomplished
             skateboarder helps me bring creativity, perseverance, and
             meticulousness to the job.
           </p>
