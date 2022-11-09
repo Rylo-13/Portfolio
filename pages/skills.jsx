@@ -60,6 +60,7 @@ export default function Skills() {
               <li>Sanity</li>
               <li>Vercel</li>
               <li>Heroku</li>
+              <li>SASS</li>
               <li>Thirdweb</li>
             </ul>
           </div>

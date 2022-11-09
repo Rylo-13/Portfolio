@@ -22,15 +22,15 @@ export default function about() {
           </p>
           <p className="mx-auto text-gray-600">
             I'm a life-long learner and continue to work on my skills as a
-            developer. Currently, I am focused on expanding my knowledge in
-            Typescript, React and Next.js. I love exploring new technologies and
-            understanding how they work!
+            developer. Currently, I am focused on expanding my knowledge of
+            Typescript, Next.js and Solidity. I love exploring new technologies
+            and understanding how they work!
           </p>
           <p className="mb-20 mx-auto text-gray-600">
             {" "}
             I live in the beautiful suburb of Elwood in Melbourne, Australia
-            with my wife Rita who is a talented visual artist for a US based AI
-            company.
+            with my wife, Rita, who is a talented visual artist for a US-based
+            AI company.
           </p>
         </div>
       </div>
