@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function about() {
   return (
     <div className="w-full h-full max-h-screen px-10 mx-auto">
       <div className="text-center mx-auto flex flex-col justify-center h-full">
         <div className="max-w-[700px] w-full items-center font-extralight px-2 md:text-lg grid grid-cols-1 gap-4 mx-auto">
-          <h1 className="mt-20 text-3xl font-light text-[#C8A951] md:text-4xl">
+          <h1 className="mt-24 mb-4 text-3xl font-light text-[#C8A951] md:text-4xl 2xl:text-6xl">
             {" "}
             ABOUT{" "}
           </h1>
