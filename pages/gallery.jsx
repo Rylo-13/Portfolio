@@ -9,11 +9,11 @@ function gallery() {
   return (
     <div className="w-full">
       <div className="max-w-[1000px] mx-auto px-8 mb-20 flex flex-col justify-center w-full h-full">
-        <h1 className="mt-24 mb-12 text-3xl md:text-4xl 2xl:text-6xl font-light text-center text-[#C8A951]">
+        <h1 className="mt-24 mb-6 text-3xl md:text-4xl font-light text-center text-[#C8A951]">
           GALLERY
         </h1>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
           <div className="object-cover items-center justify-center rounded-xl pt-6 pb-4 px-6 shadow-md shadow-[#c5c5c5]">
             <Image src={beni} alt="Beni" />
           </div>
