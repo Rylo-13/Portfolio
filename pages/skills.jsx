@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 export default function Skills() {
   return (
     <div className="w-full max-h-screen mx-auto">
+      <Head>
+        <title>Skills</title>
+        <meta name="description" content="Portfolio skills page" />
+      </Head>
       <h1 className="text-3xl md:text-4xl font-light text-center mt-24 text-[#C8A951]">
         SKILLS
       </h1>
@@ -52,7 +58,7 @@ export default function Skills() {
             <ul class="font-extralight text-gray-600 md:text-lg list-disc list-inside">
               <li>Node.js</li>
               <li>PostgreSQL</li>
-              <li>AWS / S3</li>
+              <li>AWS - S3/Cloudfront</li>
               <li>Docker</li>
               <li>Amplify</li>
               <li>Git Version Control</li>

@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 export default function about() {
   return (
     <div className="w-full h-full max-h-screen px-10 mx-auto">
+      <Head>
+        <title>About</title>
+        <meta name="description" content="Portfolio about page" />
+      </Head>
       <div className="text-center mx-auto flex flex-col justify-center h-full">
         <div className="max-w-[700px] w-full items-center font-extralight px-2 md:text-lg grid grid-cols-1 gap-4 mx-auto">
           <h1 className="mt-24 text-3xl md:text-4xl font-light text-[#C8A951]">

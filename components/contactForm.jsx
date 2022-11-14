@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function ContactForm() {
@@ -6,6 +8,10 @@ export default function ContactForm() {
   if (state.succeeded) {
     return (
       <div className="w-full h-screen py-4 mx-auto">
+        <Head>
+          <title>Thank you</title>
+          <meta name="description" content="Portfolio thank you page" />
+        </Head>
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-center">
           <p className="font-light text-center text-3xl md:text-4xl text-[#C8A951]">
             Thanks for getting in touch!
@@ -17,6 +23,10 @@ export default function ContactForm() {
 
   return (
     <div className="w-full max-h-screen items-center px-10 mx-auto">
+      <Head>
+        <title>Contact</title>
+        <meta name="description" content="Portfolio contact page" />
+      </Head>
       <h1 className="mt-24 mb-6 text-3xl md:text-4xl font-light text-center text-[#C8A951]">
         CONTACT
       </h1>
