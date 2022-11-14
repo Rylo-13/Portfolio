@@ -14,7 +14,7 @@ function gallery() {
         <meta name="description" content="Portfolio gallery page" />
       </Head>
       <div className="max-w-[1000px] mx-auto px-8 mb-20 flex flex-col justify-center w-full h-full">
-        <h1 className="mt-24 mb-6 text-3xl md:text-4xl font-light text-center text-[#C8A951]">
+        <h1 className="mt-24 mb-8 text-3xl md:text-4xl font-light text-center text-[#C8A951]">
           GALLERY
         </h1>
 

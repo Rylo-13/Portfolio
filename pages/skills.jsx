@@ -7,11 +7,11 @@ export default function Skills() {
         <title>Skills</title>
         <meta name="description" content="Portfolio skills page" />
       </Head>
-      <h1 className="text-3xl md:text-4xl font-light text-center mt-24 text-[#C8A951]">
+      <h1 className="text-3xl md:text-4xl font-light text-center mt-24 mb-8 text-[#C8A951]">
         SKILLS
       </h1>
       <div>
-        <h2 className="text-xl md:text-2xl text-center font-extralight mt-4 text-gray-600">
+        <h2 className="text-xl md:text-2xl text-center font-extralight mt-4 mb-2 text-gray-600">
           TECHNOLOGIES I HAVE WORKED WITH
         </h2>
       </div>
@@ -54,15 +54,15 @@ export default function Skills() {
           <h3 className="text-lg md:text-xl font-light text-[#C8A951]">
             OTHER TECH
           </h3>
-          <div className="text-justify mx-auto pt-2 pl-14 mb-20">
+          <div className="text-justify mx-auto pt-2 pl-20 mb-20">
             <ul class="font-extralight text-gray-600 md:text-lg list-disc list-inside">
               <li>Node.js</li>
               <li>PostgreSQL</li>
-              <li>AWS - S3/Cloudfront</li>
-              <li>Docker</li>
+              <li>AWS</li>
+              <li>S3/Cloudfront</li>
               <li>Amplify</li>
               <li>Git Version Control</li>
-              <li>GraphQL</li>
+              <li>Docker</li>
               <li>Sanity</li>
               <li>Vercel</li>
               <li>Heroku</li>

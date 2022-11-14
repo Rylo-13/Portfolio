@@ -11,7 +11,7 @@ export default function Projects() {
         <title>Projects</title>
         <meta name="description" content="Portfolio projects page" />
       </Head>
-      <h1 className="mt-24 text-center text-3xl md:text-4xl font-light text-[#C8A951] mx-auto justify-center">
+      <h1 className="mt-24 mb-6 text-center text-3xl md:text-4xl font-light text-[#C8A951] mx-auto justify-center">
         PROJECTS
       </h1>
 

@@ -10,7 +10,7 @@ export default function main() {
         <meta name="description" content="Portfolio index page" />
       </Head>
 
-      <div className=" rounded-2xl shadow-xl justify-center mx-auto px-12 pb-12 flex flex-col h-full text-center">
+      <div className="rounded-2xl shadow-xl justify-center mx-auto px-14 pb-14 flex flex-col h-full text-center">
         <div className="shadow-md scale-90 rounded-full mx-auto w-60 h-60 md:scale-100 ">
           <Image src={rylan} alt="Rylan PFP" />
         </div>
