@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import Cryptocademy from "../public/Cryptocademy.png";
 import Mememarket from "../public/Mememarket.png";
@@ -6,6 +7,10 @@ import randoMint from "../public/randoMint.png";
 export default function Projects() {
   return (
     <div className="w-full max-h-screen px-2">
+      <Head>
+        <title>Projects</title>
+        <meta name="description" content="Portfolio projects page" />
+      </Head>
       <h1 className="mt-24 text-center text-3xl md:text-4xl font-light text-[#C8A951] mx-auto justify-center">
         PROJECTS
       </h1>

@@ -7,7 +7,7 @@ export default function main() {
     <div className="mx-auto max-w-7xl flex flex-col min-h-screen justify-center px-6 lg:px-2 2xl:px-0">
       <Head>
         <title>Rylan McNeil</title>
-        <meta name="description" content="Portfolio" />
+        <meta name="description" content="Portfolio index page" />
       </Head>
 
       <div className=" rounded-2xl shadow-xl justify-center mx-auto px-12 pb-12 flex flex-col h-full text-center">
