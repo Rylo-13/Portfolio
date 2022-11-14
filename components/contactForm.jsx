@@ -27,7 +27,7 @@ export default function ContactForm() {
         <title>Contact</title>
         <meta name="description" content="Portfolio contact page" />
       </Head>
-      <h1 className="mt-24 mb-6 text-3xl md:text-4xl font-light text-center text-[#C8A951]">
+      <h1 className="mt-24 mb-10 text-3xl md:text-4xl font-light text-center text-[#C8A951]">
         CONTACT
       </h1>
       <div className=" py-6 px-10 mx-auto max-w-lg justify-center rounded-lg shadow-md bg-[#ebebeb]">
