@@ -32,11 +32,11 @@ export default function ContactForm() {
       </h1>
       <div className=" py-6 px-10 mx-auto max-w-lg justify-center rounded-lg shadow-md bg-[#ebebeb]">
         <form onSubmit={handleSubmit}>
+          <p className="text-gray-600">📲: 0429 781 929</p>
+          <p className="text-gray-600">📫: rylanjmcneil@gmail.com</p>
           <div className="grid grid-cols-2 gap-2">
-            <div className="flex flex-col col-span-4 my-8">
-              <label className="mb-1" htmlFor="email">
-                Email:
-              </label>
+            <div className="flex flex-col col-span-4 mt-4 mb-1">
+              <label className="mb-1" htmlFor="email"></label>
               <input
                 id="email"
                 type="email"
@@ -53,9 +53,7 @@ export default function ContactForm() {
             />
 
             <div className="flex flex-col col-span-4">
-              <label className="mb-1" htmlFor="message">
-                Message:
-              </label>
+              <label className="mb-1" htmlFor="message"></label>
               <div className="flex align-items"></div>
               <textarea
                 id="message"
@@ -63,7 +61,7 @@ export default function ContactForm() {
                 maxLength="500"
                 placeholder="Enter your message"
                 className="border-gray-200 border-2 pl-2 py-2 rounded-md"
-                rows="5"
+                rows="8"
               />
 
               <ValidationError
@@ -75,7 +73,7 @@ export default function ContactForm() {
               <div className="flex justify-center py-4">
                 <button
                   type="submit"
-                  class=" text-white my-2 bg-gray-900  hover:bg-[#C8A951] font-bold py-1 px-4 rounded"
+                  class=" text-white my-2 bg-gray-900 hover:bg-[#C8A951] font-bold py-1 px-8 rounded-lg hover:duration-200"
                   disabled={state.submitting}
                 >
                   Send

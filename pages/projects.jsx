@@ -16,7 +16,7 @@ export default function Projects() {
       </h1>
 
       <div className="flex flex-col gap-4 pb-12 lg:flex-row">
-        <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 my-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+        {/* <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 my-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <a
             href="http://cryptocademy.deliciousdao.com"
             target="_blank"
@@ -46,7 +46,7 @@ export default function Projects() {
               cryptocademy.deliciousdao.com
             </p>
           </a>
-        </div>
+        </div> */}
 
         <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 mt-6 mb-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <a
