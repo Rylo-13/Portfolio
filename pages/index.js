@@ -10,7 +10,7 @@ export default function main() {
         <meta name="description" content="Portfolio index page" />
       </Head>
 
-      <div className="rounded-2xl shadow-xl justify-center mx-auto px-14 pb-14 flex flex-col h-full text-center">
+      <div className="rounded-2xl shadow-xl justify-center mx-auto my-16 px-14 pb-14 flex flex-col h-full text-center">
         <div className="shadow-md scale-90 rounded-full mx-auto w-60 h-60 md:scale-100 ">
           <Image src={rylan} alt="Rylan PFP" />
         </div>
@@ -23,10 +23,19 @@ export default function main() {
           </h3>
           <p className="font-extralight pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
             I’m a full-stack developer, focused on building responsive web
-            applications with a clean design. My experience as an accomplished
-            skateboarder helps me bring creativity, perseverance, and
-            meticulousness to the job.
+            applications with a clean design. I love working alone or in a team
+            with like-minded people to build useful applications. My experience
+            as an accomplished skateboarder helps me bring creativity,
+            perseverance and determination to the job.
           </p>
+          <ul className="font-extralight flex flex-col text-left pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
+            <li>
+              {" "}
+              - JavaScript, React.js, Next.js, HTML, CSS, SASS and Tailwind{" "}
+            </li>
+            <li> - Ruby on Rails, SQL, Heroku, Vercel, GitHub, AWS </li>
+            <li> - Relational Databasing + Active Record </li>
+          </ul>
         </div>
       </div>
     </div>
