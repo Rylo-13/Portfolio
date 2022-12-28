@@ -35,7 +35,7 @@ export default function about() {
           </p>
           <p className="mb-20 mx-auto text-gray-600">
             {" "}
-            I live in the beautiful suburb of Elwood in Melbourne, Australia
+            I live in the beautiful suburb of Elwood in Melbourne, Australia,
             with my wife, Rita, who is a talented visual artist for a US-based
             AI company.
           </p>
