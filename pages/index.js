@@ -28,7 +28,7 @@ export default function main() {
             as an accomplished skateboarder helps me bring creativity,
             perseverance and determination to the job.
           </p>
-          <ul className="font-extralight flex flex-col text-left pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
+          <ul className="font-extralight flex flex-col items-center text-center pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
             <li>
               {" "}
               - JavaScript, React.js, Next.js, HTML, CSS, SASS and Tailwind{" "}
