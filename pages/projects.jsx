@@ -60,8 +60,8 @@ export default function Projects() {
               <Image src={randoMint} alt="Rando-Mint Website" />
               <div className="absolute p-2 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-xs md:text-sm font-light pb-2 px-2">
-                  A full stack NFT project I am currently working on to
-                  understand the entire process of creating a mintable NFT drop.
+                  A full stack NFT project I built to understand the entire
+                  process of creating a mintable NFT drop.
                 </p>
                 <p className="text-xs md:text-sm font-light pt-4">
                   TypeScript | React | Next.js | Tailwind | Thirdweb | MetaMask
