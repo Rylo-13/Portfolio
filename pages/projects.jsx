@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Cryptocademy from "../public/Cryptocademy.png";
+import dailyVibe from "../public/dailyVibe.png";
 import Mememarket from "../public/Mememarket.png";
 import randoMint from "../public/randoMint.png";
 
@@ -16,37 +16,37 @@ export default function Projects() {
       </h1>
 
       <div className="flex flex-col gap-4 pb-12 lg:flex-row">
-        {/* <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 my-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+        <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 my-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <a
-            href="http://cryptocademy.deliciousdao.com"
+            href="https://the-daily-vibe-rylo-13.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="text-gray-600 hover:text-[#C8A951] text-lg"
           >
             <h3 className="text-xl font-extralight mb-2 py-2">
               {" "}
-              CRYPTOCADEMY{" "}
+              THE DAILY VIBE{" "}
             </h3>
             <div className=" relative overflow-hidden">
-              <Image src={Cryptocademy} alt="Cryptocademy website" />
+              <Image src={dailyVibe} alt="The Daily Vibe website" />
               <div className="absolute px-2 pb-2 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 group:bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-xs md:text-sm font-light px-2 pb-2">
                   {" "}
-                  Served as a full stack Ruby on Rails developer in a team of 4.
-                  Creating and deploying this educational blockchain app in
-                  under 2 weeks.
+                  Responsive full-stack real-time news website I built using the
+                  mediastack API.
                 </p>
                 <p className="text-xs md:text-sm font-light pt-4">
                   {" "}
-                  Ruby on Rails | JavaScript | PostgreSQL | SASS | Heroku{" "}
+                  TypeScript | React | Next.js | Tailwind | StepZen | GraphQL |
+                  Vercel{" "}
                 </p>
               </div>
             </div>
             <p className="text-xs md:text-sm pt-4 font-extralight text-gray-600 underline decoration-gray-600 underline-offset-4 hover:text-[#C8A951] hover:decoration-[#C8A951]">
-              cryptocademy.deliciousdao.com
+              the-daily-vibe.vercel.app
             </p>
           </a>
-        </div> */}
+        </div>
 
         <div className="basis-1/3 items-center flex-auto text-center rounded-lg pt-4 pb-8 px-4 mt-6 mb-6 mx-12 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <a
@@ -60,7 +60,7 @@ export default function Projects() {
               <Image src={randoMint} alt="Rando-Mint Website" />
               <div className="absolute p-2 h-full w-full bg-black/80 text-white flex flex-col items-center justify-center bottom-0 opacity-0 hover:opacity-100 transition-all duration-300">
                 <p className="text-xs md:text-sm font-light pb-2 px-2">
-                  A full stack NFT project I built to understand the entire
+                  Full stack NFT project I built to understand the entire
                   process of creating a mintable NFT drop.
                 </p>
                 <p className="text-xs md:text-sm font-light pt-4">
