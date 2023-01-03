@@ -18,22 +18,22 @@ export default function main() {
           RYLAN MCNEIL
         </h1>
         <div>
-          <h3 className="text-lg font-extralight mb-2 text-gray-600 md:text-2xl">
+          <h3 className="text-lg font-light mb-2 text-gray-600 md:text-2xl">
             Full Stack Developer based in Melbourne, Australia.
           </h3>
-          <p className="font-extralight pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
+          <p className="font-light pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
             I’m a full-stack developer, focused on building responsive web
             applications with a clean design. I love working alone or in a team
             with like-minded people to build useful applications. My experience
             as an accomplished skateboarder helps me bring creativity,
             perseverance and determination to the job.
           </p>
-          <ul className="font-extralight flex flex-col items-center text-center pt-4 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
+          <ul className="font-light flex flex-col items-center text-center pt-8 px-1 md:text-lg max-w-2xl mx-auto text-gray-600">
             <li>
               {" "}
               - JavaScript, React.js, Next.js, HTML, CSS, SASS and Tailwind{" "}
             </li>
-            <li> - Ruby on Rails, SQL, Heroku, Vercel, GitHub, AWS </li>
+            <li> - Ruby on Rails, AWS, Heroku, Vercel, GitHub, SQL </li>
             <li> - Relational Databasing + Active Record </li>
           </ul>
         </div>
